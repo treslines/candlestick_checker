@@ -115,7 +115,7 @@ All candlestick sections were tested. Those tests can be found at `com.treslines
 
 # Contributions - The requirements are minimal:
   - Classes should follow the same pattern as the model classes with javadoc
-  - For the project, implement your contribution, make a pull request
+  - Fork the project, implement your contribution, make a pull request
 
 ## License:
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
