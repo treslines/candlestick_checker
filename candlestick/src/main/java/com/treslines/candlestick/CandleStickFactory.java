@@ -38,7 +38,7 @@ public class CandleStickFactory {
 	}
 	
 	/**
-	 * Use it to check for single candle stick pattern signals
+	 * Use it to check for single candle stick pattern signals.
 	 * @param candles the most recent last two ticks
 	 * @return SingleCandleStickPattern on which you call isBullish() or isBearish() on it.
 	 */
@@ -47,7 +47,7 @@ public class CandleStickFactory {
 	}
 	
 	/**
-	 * Use it to check for double candle stick pattern signals
+	 * Use it to check for double candle stick pattern signals.
 	 * @param candles the most recent last three ticks
 	 * @return DoubleCandleStickPattern on which you call isBullish() or isBearish() on it.
 	 */
@@ -56,7 +56,7 @@ public class CandleStickFactory {
 	}
 	
 	/**
-	 * Use it to check for triple candle stick pattern signals
+	 * Use it to check for triple candle stick pattern signals.
 	 * @param candles the most recent last four ticks
 	 * @return TripleCandleStickPattern on which you call isBullish() or isBearish() on it.
 	 */
