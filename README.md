@@ -35,7 +35,7 @@ boolean isDoubleBullish = CandleStickFactory.doubl(candles).isBullish();
 boolean isTripleBullish = CandleStickFactory.triple(candles).isBullish();
 
 if(isSingleBullish || isDoubleBullish || isTripleBullish){
-  // if you are in a downtrend and your your trending signal are indicating
+  // if you are in a downtrend and your trending signal are indicating
   // a possible turn over to an uptrend, this could be the right moment to 
   // buy a position. It should act as a reinforcement of your indicators
   
@@ -48,7 +48,7 @@ boolean isDoubleBearish = CandleStickFactory.doubl(candles).isBearish();
 boolean isTripleBearish = CandleStickFactory.triple(candles).isBearish();
 
 if(isSingleBearish || isDoubleBearish || isTripleBearish){
-  // if you are in an uptrend and your your trending signal are indicating
+  // if you are in an uptrend and your trending signal are indicating
   // a possible turn over to a downtrend, this could be the right moment to 
   // sell a position. It should act as a reinforcement of your indicators
   
