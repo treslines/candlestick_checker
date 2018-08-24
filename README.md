@@ -87,7 +87,7 @@ CandleStickFactory.triple(candles).isBearish();
 
 # Setup
 - Create an eclipse maven java project
-- Clone this repo to your local machine using `https://github.com/treslines/candlestick_checker`
+- Clone this repo to your local machine using `git clone https://github.com/treslines/candlestick_checker.git`
 - Include it in your project and reference it
 
 # Test cases
