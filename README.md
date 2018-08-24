@@ -1,6 +1,6 @@
 # Candlestick Checker
-Use the most popular candle stick patterns to reinforce the signals of your trading indicators.
-This tiny library focuses on practicality and simplicity. It groups the patterns into three main sections:
+Use the most popular candle stick patterns to **reinforce** the signals of your trading indicators.
+This tiny library focuses on **practicality** and **simplicity**. It groups the patterns into three main sections:
 
 - **Single Candle Pattern**
   - BullishDoji
@@ -22,7 +22,7 @@ This tiny library focuses on practicality and simplicity. It groups the patterns
   - BearishThreeBlackCrows
   - BearishKicker
 
-But instead of worrying about each one of them or checking it one by one, this tiny lib evaluates all of them returning only a bullish or bearish signal.
+But instead of worrying about each one of them or checking it one by one, this tiny lib evaluates all of them returning only a **bullish** or **bearish** signal.
 
 # Usage Example
 I prefer to check for all in one like in the example bellow, but if you prefer, you may check individually.
