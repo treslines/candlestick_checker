@@ -1,6 +1,6 @@
 # Candlestick Checker
 Use the most popular candle stick patterns to **reinforce** the signals of your trading indicators.
-This tiny library focuses on **practicality** and **simplicity**. It groups the patterns into three main sections:
+This tiny library focuses on **simplicity**. It groups the patterns into three main sections:
 
 - **Single Candle Pattern**
   - BullishDoji
@@ -54,35 +54,6 @@ if(isSingleBearish || isDoubleBearish || isTripleBearish){
   
   // ... do something here...
 }
-```
-
-
-```java
-// SINGLE CANDLE STICK PATTERN
-
-// if you are in a downtrend, check for bullish signals
-CandleStickFactory.single(candles).isBullish();
-
-// if you are in a uptrend, check for bearish signals
-CandleStickFactory.single(candles).isBearish();
-```
-```java
-// DOUBLE CANDLE STICK PATTERN
-
-// if you are in a downtrend, check for bullish signals
-CandleStickFactory.doubl(candles).isBullish();
-
-// if you are in a uptrend, check for bearish signals
-CandleStickFactory.doubl(candles).isBearish();
-```
-```java
-// TRIPLE CANDLE STICK PATTERN
-
-// if you are in a downtrend, check for bullish signals
-CandleStickFactory.triple(candles).isBullish();
-
-// if you are in a uptrend, check for bearish signals
-CandleStickFactory.triple(candles).isBearish();
 ```
 
 # Setup
