@@ -24,7 +24,7 @@ This tiny library focuses on **simplicity**. It groups the patterns into three m
 
 But instead of worrying about each one of them or checking it one by one, this tiny lib evaluates all of them returning only a **bullish** or **bearish** signal.
 
-# Usage Example
+# Simple Usage
 I prefer to check for all in one like in the example bellow, but if you prefer, you may check individually.
 ```java
 // CHECK FOR ALL CANDLE STICK PATTERN
@@ -61,28 +61,13 @@ if(isSingleBearish || isDoubleBearish || isTripleBearish){
 - Clone this repo to your local machine using `git clone https://github.com/treslines/candlestick_checker.git`
 - Include it in your project and reference it
 
-# Test cases
-All candlestick sections were tested. Those tests can be found at `com.treslines.test.candlestick` and for each one exits a  test case.
+# Test coverage
+All candlestick sections were tested. Those tests can be found at `com.treslines.test.candlestick` and for each one exits a  single test case. But, for **simplicity**, there is a test suite that runs all tests together automatically everytime we accept a pull request.
 
-### SingleCandleStickPatternTest
-  - testBullishDoji
-  - testBullishHammer
-  - testBearishDoji
-  - testBearishShotingStar
-### DoubleCandleStickPatternTest
-  - testBullishEngolfer
-  - testBullishPiercing
-  - testBullishTweezerBottom
-  - testBearishEngolfer
-  - testBearishDarkCloudCover
-  - testBearishTweezerTop
-### TripleCandleStickPatternTest
-  - testBullishMorningStar
-  - testBullishWhiteSoldiers
-  - testBullishKicker
-  - testBearishEveningStar
-  - testBearishThreeBlackCrows
-  - testBearishKicker
+### CandleStickTestSuite
+- SingleCandleStickPatternTest
+- DoubleCandleStickPatternTest
+- TripleCandleStickPatternTest
 
 # Contributions - Minimal requirements:
   - Classes should follow the same pattern as the model classes with javadoc
