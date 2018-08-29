@@ -1,4 +1,4 @@
-# Candlestick Checker ![](https://travis-ci.org/treslines/candlestick_checker.svg?branch=master)
+# Candlestick Checker ![](https://travis-ci.org/treslines/candlestick_checker.svg?branch=master) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 Use the most popular candle stick patterns to **reinforce** the signals of your trading indicators.
 This tiny library focuses on **simplicity**. It groups the patterns into three main sections:
 
