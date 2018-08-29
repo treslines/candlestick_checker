@@ -4,9 +4,6 @@ jdk:
   - oraclejdk8
 
 install: true
-script: mvn test -Dtest=CandleStickTestSuite
+script: mvn test -Dtest=CandleStickTestSuite -e
 
-cache:
-  directories:
-  - $HOME/.m2
 
