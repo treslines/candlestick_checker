@@ -84,7 +84,7 @@ All candlestick sections were tested. Those tests can be found at `com.treslines
   - testBearishThreeBlackCrows
   - testBearishKicker
 
-# Contributions - The requirements are minimal:
+# Contributions - Minimal requirements:
   - Classes should follow the same pattern as the model classes with javadoc
   - Fork the project, implement your contribution, make a pull request
 
