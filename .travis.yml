@@ -4,6 +4,6 @@ jdk:
   - oraclejdk8
 
 install: true
-script: mvn test -Dtest=candlestick/CandleStickTestSuite -e
+script: mvn test -Dtest=/home/travis/build/treslines/candlestick_checker/candlestick/CandleStickTestSuite -e
 
 
