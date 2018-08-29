@@ -4,6 +4,6 @@ jdk:
   - oraclejdk8
 
 install: true
-script: mvn test -Dtest=CandleStickTestSuite -e
+script: mvn test -Dtest=candlestick/CandleStickTestSuite -e
 
 
