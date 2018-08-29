@@ -1,6 +1,6 @@
-# Candlestick Checker
-Use the most popular candle stick patterns to reinforce the signals of your trading indicators.
-This tiny library focuses on practicality and simplicity. It groups the patterns into three main sections:
+# Candlestick Checker ![](https://travis-ci.org/treslines/candlestick_checker.svg?branch=master)
+Use the most popular candle stick patterns to **reinforce** the signals of your trading indicators.
+This tiny library focuses on **simplicity**. It groups the patterns into three main sections:
 
 - **Single Candle Pattern**
   - BullishDoji
@@ -22,7 +22,7 @@ This tiny library focuses on practicality and simplicity. It groups the patterns
   - BearishThreeBlackCrows
   - BearishKicker
 
-But instead of worrying about each one of them or checking it one by one, this tiny lib evaluates all of them returning only a bullish or bearish signal.
+But instead of worrying about each one of them or checking it one by one, this tiny lib evaluates all of them returning only a **bullish** or **bearish** signal.
 
 # Usage Example
 I prefer to check for all in one like in the example bellow, but if you prefer, you may check individually.
@@ -56,38 +56,9 @@ if(isSingleBearish || isDoubleBearish || isTripleBearish){
 }
 ```
 
-
-```java
-// SINGLE CANDLE STICK PATTERN
-
-// if you are in a downtrend, check for bullish signals
-CandleStickFactory.single(candles).isBullish();
-
-// if you are in a uptrend, check for bearish signals
-CandleStickFactory.single(candles).isBearish();
-```
-```java
-// DOUBLE CANDLE STICK PATTERN
-
-// if you are in a downtrend, check for bullish signals
-CandleStickFactory.doubl(candles).isBullish();
-
-// if you are in a uptrend, check for bearish signals
-CandleStickFactory.doubl(candles).isBearish();
-```
-```java
-// TRIPLE CANDLE STICK PATTERN
-
-// if you are in a downtrend, check for bullish signals
-CandleStickFactory.triple(candles).isBullish();
-
-// if you are in a uptrend, check for bearish signals
-CandleStickFactory.triple(candles).isBearish();
-```
-
 # Setup
 - Create an eclipse maven java project
-- Clone this repo to your local machine using `https://github.com/treslines/candlestick_checker`
+- Clone this repo to your local machine using `git clone https://github.com/treslines/candlestick_checker.git`
 - Include it in your project and reference it
 
 # Test cases
@@ -113,9 +84,9 @@ All candlestick sections were tested. Those tests can be found at `com.treslines
   - testBearishThreeBlackCrows
   - testBearishKicker
 
-# Contributions - The requirements are minimal:
+# Contributions - Minimal requirements:
   - Classes should follow the same pattern as the model classes with javadoc
-  - For the project, implement your contribution, make a pull request
+  - Fork the project, implement your contribution, make a pull request
 
 ## License:
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
