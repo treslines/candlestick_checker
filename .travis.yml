@@ -4,7 +4,7 @@ jdk:
   - oraclejdk8
 
 install: true
-script: mvn clean install
+script: mvn test -Dtest=CandleStickTestSuite
 
 cache:
   directories:
