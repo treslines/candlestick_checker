@@ -6,6 +6,6 @@ jdk:
 install: true
 script: 
   - cd candlestick
-  - mvn test -Dtest=CandleStickTestSuite -e
+  - mvn test -Dtest=CandleStickTestSuite
 
 
