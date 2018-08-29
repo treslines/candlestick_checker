@@ -37,5 +37,5 @@ import org.junit.runners.Suite;
 	TripleCandleStickPatternTest.class
 })
 public class CandleStickTestSuite {
-	// test suite
+	// test  suite
 }
