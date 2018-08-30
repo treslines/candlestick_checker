@@ -2,25 +2,19 @@
 Use the most popular candle stick patterns to **reinforce** the signals of your trading indicators.
 This tiny library focuses on **simplicity**. It groups the patterns into three main sections:
 
-- **Single Candle Pattern**
-  - BullishDoji
-  - BullishHammer
-  - BearishDoji
-  - BearishShotingStar
-- **Double Candle Pattern**
-  - BullishEngolfer
-  - BullishPiercing
-  - BullishTweezerBottom
-  - BearishEngolfer
-  - BearishDarkCloudCover
-  - BearishTweezerTop
-- **Triple Candle Pattern**
-  - BullishMorningStar
-  - BullishWhiteSoldiers
-  - BullishKicker
-  - BearishEveningStar
-  - BearishThreeBlackCrows
-  - BearishKicker
+<p align="left">
+  <img src="https://github.com/treslines/candlestick_checker/blob/master/candles.png">
+</p>
+
+| **Single Candle Pattern** | **Double Candle Pattern**| **Triple Candle Pattern** |
+| :---:         |     :---:      |          :---: |
+| BullishDoji   | BullishEngolfer     | BullishMorningStar    |
+| BullishHammer    | BullishPiercing       | BullishWhiteSoldiers      |
+| BearishDoji    | BullishTweezerBottom       | BullishKicker     |
+| BearishShotingStar    | BearishEngolfer       | BearishEveningStar      |
+|     | BearishDarkCloudCover       | BearishThreeBlackCrows      |
+|     | BearishTweezerTop       | BearishKicker      |
+
 
 But instead of worrying about each one of them or checking it one by one, this tiny lib evaluates all of them returning only a **bullish** or **bearish** signal.
 
