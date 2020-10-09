@@ -77,11 +77,7 @@ All candlestick sections were tested. Those tests can be found at `com.treslines
 ## Author:
 <pre>
 <b>Ricardo Ferreira</b>
-Software Engineer at CESAR <a href="http://www.cesar.org.br">http://www.cesar.org.br</a>
 Instagram: ricardo7307
 Twitter: ricardo_7307
-Blog: <a href="http://www.cleancodedevelopment-qualityseal.blogspot.com.br">http://www.cleancodedevelopment-qualityseal.blogspot.com.br</a>
+Needs Driven Development (NDD): <a href="http://codegramm.herokuapp.com/index.html">http://codegramm.herokuapp.com/index.html</a>
 </pre>
-
-
-
