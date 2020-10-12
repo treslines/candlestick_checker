@@ -78,6 +78,6 @@ All candlestick sections were tested. Those tests can be found at `com.treslines
 <pre>
 <b>Ricardo Ferreira</b>
 Instagram: ricardo7307
-Twitter: ricardo_7307
+Twitter: r_i_c_a_r_d_o_f
 Needs Driven Development (NDD): <a href="http://codegramm.herokuapp.com/index.html">http://codegramm.herokuapp.com/index.html</a>
 </pre>
