@@ -72,7 +72,7 @@ All candlestick sections were tested. Those tests can be found at `com.treslines
 ## License:
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2018 © Ricardo Ferreira
+- Copyright 2018-2020 © Ricardo Ferreira
 
 ## Author:
 <pre>
